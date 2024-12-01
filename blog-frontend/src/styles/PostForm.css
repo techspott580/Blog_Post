@@ -1,0 +1,45 @@
+.post-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .post-form label {
+    margin-bottom: 10px;
+  }
+  .post-form input, 
+  .post-form textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .post-form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .post-form button:hover {
+    background-color: #0056b3;
+  }
+  .post-form label textarea {
+    width: 100%;
+    height:500px;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .post-form input {
+    width: 300px;
+    /* height:500px; */
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

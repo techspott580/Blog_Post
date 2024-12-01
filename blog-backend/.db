@@ -1,0 +1,13 @@
+// db.js
+const mysql = require('mysql2');
+
+// Create the connection pool
+const pool = mysql.createPool({
+  host: 'localhost',       // MySQL server address (localhost for local database)
+  user: 'root',            // Your MySQL username
+  password: 'yourpassword', // Your MySQL password
+  database: 'blog_db',      // Your database name
+});
+
+// Export the pool for use in other files
+module.exports = pool.promise();
